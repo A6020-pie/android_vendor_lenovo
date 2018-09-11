@@ -18,8 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/lenovo/A6020/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/lenovo/A6020/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
-    vendor/lenovo/A6020/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
-    vendor/lenovo/A6020/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/lenovo/A6020/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lenovo/A6020/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/A6020/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
@@ -104,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/lenovo/A6020/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -352,25 +349,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/hw/wbc_hal.default.so:system/vendor/lib64/hw/wbc_hal.default.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -412,8 +390,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
@@ -461,7 +437,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
@@ -473,7 +448,4 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 
 PRODUCT_PACKAGES += \
-    ims \
-    imscmlibrary \
-    imssettings \
     TimeService
